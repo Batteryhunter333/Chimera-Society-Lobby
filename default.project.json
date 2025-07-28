@@ -1,0 +1,53 @@
+{
+  "name": "Chimera-Society-Lobby",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedFirst":{
+      "$className": "ReplicatedFirst",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedFirst"
+    },
+
+    "ReplicatedStorage":{
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedStorage"
+    },
+
+    "ServerScriptService":{
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerScriptService"
+    },
+
+    "StarterGui": {
+      "CurrentLobby": {
+        "$className": "ScreenGui",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterGui/CurrentLobby"
+      },
+      "LobbyMenus": {
+        "$className": "ScreenGui",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterGui/LobbyMenus"
+      },
+      "PopupSystem": {
+        "$className": "ScreenGui",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterGui/PopupSystem"
+      }
+    },
+
+    "StarterPlayer":{
+      "$className":"StarterPlayer",
+      "$ignoreUnknownInstances": true,
+
+      "StarterPlayerScripts":{
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayerScripts"
+      }
+    }
+  }
+}
